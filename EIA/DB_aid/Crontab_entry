@@ -1,0 +1,8 @@
+0 2 * * * cd /opt/dgweb/dbadmin/EIA_DB_Update_V0/ && ./DBUpdate.py >> log.txt 2>&1
+
+the above line was added to the root's crontab entry
+
+Command:
+# crontab -e 
+
+NOTE that the contents of DBUpdate/ (repository) were placed in /opt/dgweb/dbadmin/EIA_DB_Update_V0/ (working server) with right credentials in files.

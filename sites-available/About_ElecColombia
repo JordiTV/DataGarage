@@ -1,0 +1,2 @@
+There are two files with some differences, what is used in production is the ElecColombia2 one ("ElecColombia" would only work with domains that do not require SSL certificates, and not recommended, just provided as an example)
+

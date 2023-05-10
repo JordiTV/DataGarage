@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve EIADash alias usfuels.datagarage.dev
+After=network.target
+
+[Service]
+User=webadmon
+Group=www-data
+WorkingDirectory=/opt/dgweb/usfuels
+Environment="PATH=/opt/dgweb/venv1/bin"
+ExecStart=/opt/dgweb/venv1/bin/gunicorn --workers 3 --bind unix:EIADash.sock -m 007 wsgi:server
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,6 @@
+db_string is a file with one line like the following, replacing user, password, IP, etc. accordingly, so that SQLALCHEMY can connect to the database. This needs to be created in this folder:
+
+mariadb+pymysql://USR:PASSWD@IP:3306/Database_name?charset=utf8mb4
+
+
+Note that the database can be different for each dashboard / report.

@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+    server_name usfuels.datagarage.dev;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/opt/dgweb/usfuels/EIADash.sock;
+    }
+    
+    # ssl configuration;
+    ssl_certificate /etc/letsencrypt/live/usfuels.datagarage.dev/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/usfuels.datagarage.dev/privkey.pem;
+    
+}
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name usfuels.datagarage.dev;
+
+    return 302 https://$server_name$request_uri;
+}

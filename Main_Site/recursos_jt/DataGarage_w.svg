@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2710"
+   version="1.1"
+   viewBox="0 0 110.72966 18.135601"
+   height="18.135601mm"
+   width="110.72966mm">
+  <defs
+     id="defs2704" />
+  <metadata
+     id="metadata2707">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(192.94816,-49.051244)"
+     id="layer1">
+    <text
+       id="text817-46-29-0-3-3-0-5-5-6-2-7-8-8-2-5-0-0-437-9"
+       y="64.914955"
+       x="-193.6001"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="64.914955"
+         x="-193.6001"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:19.75555611px;font-family:DymaxionScript;-inkscape-font-specification:DymaxionScript;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332"
+         id="tspan991-0-1-7-7-8-0-4-2-7-4-2-3-0-1-5-3-12-8">Data Garage </tspan></text>
+  </g>
+</svg>

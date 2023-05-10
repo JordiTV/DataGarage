@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="recursos_jt/bootstrap.min.css" rel="stylesheet">
+	<style>
+
+		html, body {
+			padding: 0;
+			margin:0;
+			
+		}
+
+		.cabecera {
+			background-color: #001741; 
+			padding-top: 15px;
+			padding-bottom: 15px;
+			margin:0;
+			}
+			
+		.normal {
+			background-color: #FFFFFF; 
+			font-family: 'Helvetica', 'Tahoma', sans-serif;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left:2%;
+			padding-right:2%;
+			}
+
+		.banderas{
+			background-repeat: repeat-x;
+			background-image: url("recursos_jt/bandera_ready.svg");
+			min-height:60px;
+		}
+
+		.pie{
+			background-color: #001741; 
+			font-family: arial;
+			padding-top: 10px;
+			padding-bottom: 5px;
+			min-height:50px;
+		}
+
+
+		.center {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 50%;
+		}
+
+
+	</style>
+
+    <title>DataGarage</title>
+	<link rel="icon" type="image/x-icon" href="recursos_jt/favicon.ico">
+
+</head>
+<body class="d-flex flex-column min-vh-100">
+    
+    
+    <div class="cabecera" > 
+    <!--Recuerda que les puedes poner class="lo que sea"-->
+	<img src = "recursos_jt/DataGarage_w_curves.svg" alt="DataGarage" class="center" style="min-height:50px;"/>
+    </div>
+    
+    <div class="banderas" > 
+    </div>
+        
+    <div class="normal" style="min-height:500px"> 
+    <h3>Welcome to the Garage.</h3>
+    
+    <p>A creative hands-on space for projects and tools to collect, process, analyze, interpret, model, and visualize data, to help make informed decisions and satiate curiosity.</p>
+    
+
+    <div class="container-fluid bg-3 text-center">    
+
+  <div class="row">
+    <div class="col-sm-3">
+      <a style="text-decoration:none; padding:0px; margin:0px; color:black;" href="https://usfuels.datagarage.dev/" target="_blank">
+        <img src="recursos_jt/gas.svg" class="img-responsive img-fluid" style="height:90%; padding-top:15%; padding-left:15%; padding-right:5%; padding-bottom:4%;" alt="USFuels">
+        <h5>U.S. EIA Crude Oil, Gas & Fuels Monthly Data Dashboard</h5>
+      </a>
+    </div>
+    <div class="col-sm-3">
+      <a style="text-decoration:none; padding:0px; margin:0px; color:black;" href="https://colombia.datagarage.dev/" target="_blank">
+        <img src="recursos_jt/battery.svg" class="img-responsive img-fluid" style="height:90%; padding-top:15%; padding-left:15%; padding-right:15%; padding-bottom:4%;" alt="Colombia EP">
+        <h5>Colombian Energy Grid Data</h5>
+      </a>
+    </div>
+    <div class="col-sm-3" style="justify-content: center; align-items: center;">
+      <a style="text-decoration:none; padding:0px; margin:0px; color:black; text-align: center;" href="https://github.com/JordiTV/DataGarage" target="_blank">
+        <img src="recursos_jt/hood.svg" class="img-responsive img-fluid" style="height:90%; padding-top:15%; padding-left:15%; padding-right:15%; padding-bottom:4%;" alt="Colombia EP">
+        <h5>Look under the hood on Github</h5>
+      </a>
+    </div>
+    <!--
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div> -->
+  </div>
+</div>
+
+<!-- El img-fluid fue el que arregló el overlap  -->
+
+
+<!--
+    <div class="container-fluid bg-3 text-center">    
+  <h3>Some of my Work</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!--  -->
+
+
+    
+    </div>
+    
+    <footer class="mt-auto pie" > 
+	<div>
+    <img src = "recursos_jt/DataGarage_dev_w_curves.svg" alt="DataGarage.dev" class="center" style="height:25px;"/>
+	</div>
+	<div style="padding-top:5px;">
+		<a style="text-decoration:none; padding:0px; margin:0px;" href="https://creativecommons.org/licenses/by-nd/4.0/" target="_blank">
+      <p style="color:white; text-align:center; text-decoration:none; margin:0px; padding:0px;">CC-BY-NC Jordi Tarrag&oacute;</p>
+    </a>  
+    <p style="color:white; text-align:center; text-decoration:none; margin:0px; padding:0px;">jordi@datagarage.dev</p>
+	</div>
+	</footer>
+
+</body>
+</html>

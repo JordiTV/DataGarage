@@ -1,0 +1,11 @@
+Tabla,Freq,Fecha,Dato,Digitos,Decimales
+PrecioBolsa,hourly,DATETIME,PrecBolsNaci,12,5
+PrecioContReg,hourly,DATETIME,PrecPromContRegu,12,5
+PrecioContNoReg,hourly,DATETIME,PrecPromContNoRegu,12,5
+PrecioTX1,hourly,DATETIME,PrecBolsNaciTX1,12,5
+PrecioEscasez,daily,DATE,PrecEsca,12,5
+PrecioEscasezAct,daily,DATE,PrecEscaAct,12,5
+VolumenUtilTotal,daily,DATE,VoluUtilDiarEner,18,5
+VolumenUtilFrac,daily,DATE,PorcVoluUtilDiar,6,5
+CapacidadUtilTotal,daily,DATE,CapaUtilDiarEner,18,5
+DemandaSIN,daily,DATE,DemaSIN,18,5

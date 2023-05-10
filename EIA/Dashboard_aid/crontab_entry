@@ -1,0 +1,5 @@
+15 4 * * * systemctl restart EIADash >> /opt/dgweb/usfuels/gunicorn_log.txt
+
+to set:
+
+sudo crontab -e and add that at the end of the file

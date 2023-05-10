@@ -1,0 +1,6 @@
+0 4 * * * systemctl restart ElecColombia >> /opt/dgweb/dbadmin/EP_Col_DB_Update_V0/gunicorn_log.txt
+
+
+to set:
+
+sudo crontab -e and add that at the end of the file

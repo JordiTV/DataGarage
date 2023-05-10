@@ -1,0 +1,8 @@
+0 1 * * * cd /opt/dgweb/dbadmin/EP_Col_DB_Update_V0/ && ./EP_Col_DB_Update.py >> log.txt 2>&1
+
+the above line was added to the root's crontab entry
+
+Command:
+# crontab -e 
+
+NOTE that the contents of EP_Col_DB_Update/ (from the repository) were placed in /opt/dgweb/dbadmin/EP_Col_DB_Update_V0/ (in the working server) with right credentials in files.

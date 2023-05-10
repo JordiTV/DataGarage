@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg2710"
+   version="1.1"
+   viewBox="0 0 44.284767 4.1275"
+   height="4.1275001mm"
+   width="44.284767mm">
+  <defs
+     id="defs2704" />
+  <metadata
+     id="metadata2707">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(179.74109,-62.722643)"
+     id="layer1">
+    <text
+       id="text817-46-29-0-3-3-0-5-5-6-2-7-8-8-2-5-0-9-79"
+       y="66.189743"
+       x="-157.89398"
+       style="font-style:normal;font-weight:normal;font-size:4.93888855px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       xml:space="preserve"><tspan
+         y="66.189743"
+         x="-157.89398"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;font-family:DymaxionScript;-inkscape-font-specification:DymaxionScript;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan991-0-1-7-7-8-0-4-2-7-4-2-3-0-1-5-8-32">datagarage.dev</tspan></text>
+  </g>
+</svg>

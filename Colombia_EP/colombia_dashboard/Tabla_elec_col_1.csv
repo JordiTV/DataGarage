@@ -1,0 +1,11 @@
+Tabla,Freq,Fecha,Dato,Digitos,Decimales,Load,a quitar por ahora:
+PrecioBolsa,hourly,DATETIME,PrecBolsNaci,12,5,y,
+PrecioContReg,hourly,DATETIME,PrecPromContRegu,12,5,y,
+PrecioContNoReg,hourly,DATETIME,PrecPromContNoRegu,12,5,y,
+PrecioTX1,hourly,DATETIME,PrecBolsNaciTX1,12,5,y,
+PrecioEscasez,daily,DATE,PrecEsca,12,5,y,
+PrecioEscasezAct,daily,DATE,PrecEscaAct,12,5,y,
+VolumenUtilTotal,daily,DATE,VoluUtilDiarEner,18,5,y,
+VolumenUtilFrac,daily,DATE,PorcVoluUtilDiar,6,5,y,este
+CapacidadUtilTotal,daily,DATE,CapaUtilDiarEner,18,5,y,
+DemandaSIN,daily,DATE,DemaSIN,18,5,y,"tal vez, validar"

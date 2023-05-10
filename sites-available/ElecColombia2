@@ -1,0 +1,22 @@
+server {
+    listen 443 ssl;
+    server_name colombia.datagarage.dev;
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/opt/dgweb/colombia/ElecColombia.sock;
+    }
+    
+    # ssl configuration;
+    ssl_certificate /etc/letsencrypt/live/colombia.datagarage.dev/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/colombia.datagarage.dev/privkey.pem;
+    
+}
+server {
+    listen 80;
+    listen [::]:80;
+
+    server_name colombia.datagarage.dev;
+
+    return 302 https://$server_name$request_uri;
+}
