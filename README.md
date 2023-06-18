@@ -3,9 +3,21 @@
 
 <!-- Logo -->
 <br />
+<!--
 <div align="center">
   <a href="https://github.com/JordiTV/DataGarage"> 
     <img src="img/DataGarage.svg" alt="Data Garage" style="padding-top:10px; padding-bottom:10px;">
+  </a>
+</div>
+-->
+
+<div align="center">
+  <a href="https://github.com/JordiTV/DataGarage"> 
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="img/DataGarage_w.svg">
+      <source media="(prefers-color-scheme: light)" srcset="img/DataGarage.svg">
+      <img alt="Data Garage" src="img/DataGarage.svg">
+    </picture>
   </a>
 </div>
 
@@ -27,9 +39,20 @@ Here you can find the code for the main site and all the visualizations and addi
 
 The site can be visited at:
 
+<!--
 <div align="center">
   <a href="https://datagarage.dev"> 
     <img src="img/DataGarage_dev.svg" alt="datagarage.dev">
+  </a>
+</div>
+-->
+<div align="center">
+  <a href="https://datagarage.dev"> 
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="img/DataGarage_dev_w.svg">
+      <source media="(prefers-color-scheme: light)" srcset="img/DataGarage_dev.svg">
+      <img alt="DataGarage.dev" src="img/DataGarage_dev.svg">
+    </picture>
   </a>
 </div>
 
